@@ -21,6 +21,8 @@ The Jupyter notebook loads complaint counts by airport, category, and subcategor
 
 Complaint counts are concentrated among certain airports and categories and vary over time. These patterns can help prioritize further investigation. A high count alone does not establish poor performance: airports differ in passenger volume, and the dataset does not show whether individual complaints were substantiated.
 
+![Bar chart of the ten TSA complaint categories with the highest recorded counts](images/Top10ComplaintCategories.png)
+
 ## Repository contents
 
 | Path | Contents |
