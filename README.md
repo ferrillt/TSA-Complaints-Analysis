@@ -30,6 +30,7 @@ Complaint counts are concentrated among certain airports and categories and vary
 | [`analysis/TSA_Complaints_Analysis.ipynb`](analysis/TSA_Complaints_Analysis.ipynb) | Data preparation, charts, interpretation, and recommendations |
 | [`data/`](data/) | Complaint datasets and airport-code lookup |
 | [`images/`](images/) | Exported project visualizations |
+| ['presentation/'](presentation/) | PDF version of PowerPoint presentation summarizing the analysis |
 | [`requirements.txt`](requirements.txt) | Python packages used by the project |
 
 ## Run the notebook
