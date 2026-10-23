@@ -27,7 +27,7 @@ Complaint counts are concentrated among certain airports and categories and vary
 
 | Path | Contents |
 |---|---|
-| [`analysis/TSA_Complaints_Analysis.ipynb`](analysis/TSA_Complaints_Analysis.ipynb) | Data preparation, charts, interpretation, and recommendations |
+| [`notebook/TSA_Complaints_Analysis.ipynb`](notebook/TSA_Complaints_Analysis.ipynb) | Data preparation, charts, interpretation, and recommendations |
 | [`data/`](data/) | Complaint datasets and airport-code lookup |
 | [`images/`](images/) | Exported project visualizations |
 | [`presentation/`](presentation/) | PDF version of PowerPoint presentation summarizing the analysis |
@@ -43,7 +43,7 @@ Complaint counts are concentrated among certain airports and categories and vary
    pip install -r requirements.txt
    ```
 
-4. Open `analysis/TSA_Complaints_Analysis.ipynb` in Jupyter and run the cells in order. The notebook reads files using paths relative to the `analysis` folder.
+4. Open `notebook/TSA_Complaints_Analysis.ipynb` in Jupyter and run the cells in order. The notebook reads files using paths relative to the `analysis` folder.
 
 ## Limitations and responsible use
 
