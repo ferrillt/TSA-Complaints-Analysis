@@ -43,7 +43,7 @@ Complaint counts are concentrated among certain airports and categories and vary
    pip install -r requirements.txt
    ```
 
-4. Open `notebook/TSA_Complaints_Analysis.ipynb` in Jupyter and run the cells in order. The notebook reads files using paths relative to the `analysis` folder.
+4. Open `notebook/TSA_Complaints_Analysis.ipynb` in Jupyter and run the cells in order. The notebook reads files using paths relative to the `notebook` folder.
 
 ## Limitations and responsible use
 
