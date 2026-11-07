@@ -25,7 +25,7 @@ The repository includes three complaint datasets:
 
 These files represent different aggregation levels of the complaint records and should not be added together to calculate an overall total.
 
-Airport names, codes, and geographic coordinates are supplied by the [IP2Location IATA/ICAO List](https://github.com/ip2location/ip2location-iata-icao), stored locally as `iata-icao.csv`.
+Airport names, codes, and geographic coordinates are supplied by the [IP2Location IATA/ICAO List](https://github.com/ip2location/ip2location-iata-icao), stored locally as `iata-icao.csv` (IP2Location, n.d.).
 
 This project includes IATA/ICAO List data available from https://github.com/ip2location/ip2location-iata-icao.
 
