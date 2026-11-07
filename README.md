@@ -29,7 +29,7 @@ Airport names, codes, and geographic coordinates are supplied by the [IP2Locatio
 
 This project includes IATA/ICAO List data available from https://github.com/ip2location/ip2location-iata-icao.
 
-The Data Liberation Project’s standardized CSV files and the IP2Location airport lookup are distributed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+The Data Liberation Project’s standardized CSV files and the IP2Location airport lookup are distributed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (Data Liberation Project, n.d.).
 
 The analysis uses the copies included in this repository. Upstream datasets may change, so reproducing the reported results requires retaining these project files.
 
