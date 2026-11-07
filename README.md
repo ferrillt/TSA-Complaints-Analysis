@@ -1,12 +1,12 @@
 # TSA Complaints Analysis
 
-## Project overview
+## Project Overview
 
 This project examines patterns in Transportation Security Administration (TSA) complaint counts across airports, complaint categories, and time. It is intended to help operational leaders identify where a closer review of traveler concerns may be useful.
 
 The analysis uses Python to prepare the data and create charts showing complaint trends, high-volume airports and categories, and the geographic distribution of complaints.
 
-## Questions explored
+## Questions Explored
 
 - How has complaint volume changed over time?
 - Which airports and complaint categories have the highest recorded counts?
@@ -15,13 +15,13 @@ The analysis uses Python to prepare the data and create charts showing complaint
 
 ## Data Sources and Attribution
 
-The complaint records originated in reports published by the Transportation Security Administration (TSA). This analysis uses CSV files extracted and standardized by the [Data Liberation Project](https://github.com/data-liberation-project/tsa-complaint-counts), supplied through the course materials (Data Liberation Project, n.d.).
+The complaint records originated in reports published by the Transportation Security Administration (TSA). This analysis uses CSV files extracted and standardized by the [Data Liberation Project](https://github.com/data-liberation-project/tsa-complaint-counts), supplied through the course materials (Data Liberation Project, n.d.).  Data coverage ranges from January 2015 to January 2024.
 
 The repository includes three complaint datasets:
 
 - `complaints-by-airport.csv`: Complaint counts by airport and month.
 - `complaints-by-category.csv`: Complaint counts by airport, month, and category.
-- `complaints-by-subcategory.csv`: Complaint counts by airport, month, category, and subcategory.
+- `complaints-by-subcategory.csv`:Complaint counts by airport, month, category, and subcategory. Provided inside complaints-by-subcategory.zip.  
 
 These files represent different aggregation levels of the complaint records and should not be added together to calculate an overall total.
 
@@ -37,13 +37,13 @@ The analysis uses the copies included in this repository. Upstream datasets may 
 
 The Jupyter notebook loads complaint counts by airport, category, and subcategory, along with an airport-code lookup file. It standardizes dates and airport codes, joins airport information for mapping, and produces time-series, bar, heat-map, distribution, and geographic visualizations.
 
-## Main takeaway
+## Main Takeaway
 
 Complaint counts are concentrated among certain airports and categories and vary over time. These patterns can help prioritize further investigation. A high count alone does not establish poor performance: airports differ in passenger volume, and the dataset does not show whether individual complaints were substantiated.
 
 ![Bar chart of the ten TSA complaint categories with the highest recorded counts](images/Top10ComplaintCategories.png)
 
-## Repository contents
+## Repository Contents
 
 | Path | Contents |
 |---|---|
@@ -53,7 +53,7 @@ Complaint counts are concentrated among certain airports and categories and vary
 | [`presentation/`](presentation/) | PDF version of PowerPoint presentation summarizing the analysis |
 | [`requirements.txt`](requirements.txt) | Python packages used by the project |
 
-## Run the notebook
+## Run the Notebook
 
 1. Clone or download this repository.
 2. Extract `data/complaints-by-subcategory.zip` so that `data/complaints-by-subcategory.csv` exists.
@@ -65,13 +65,13 @@ Complaint counts are concentrated among certain airports and categories and vary
 
 4. Open `notebook/TSA_Complaints_Analysis.ipynb` in Jupyter and run the cells in order. The notebook reads files using paths relative to the `notebook` folder.
 
-## Limitations and responsible use
+## Limitations and Responsible Use
 
 These are complaint **counts**, not rates per passenger or screening event. Differences between airports may reflect differences in traffic volume, reporting practices, or other conditions. Records without usable location information cannot be shown accurately on a map. The charts identify patterns for review; they do not establish why complaints occurred or assign fault to an airport or its staff.
 
 Changes in complaint-submission systems and reporting practices can affect comparisons over time. The source documentation also identifies missing airport codes and ambiguous or truncated complaint subcategories. Records without usable airport information cannot be assigned reliably to a location, and some subcategory totals require cautious interpretation. These limitations supplement the absence of passenger-volume data.
 
-## Next steps
+## Next Steps
 
 A useful extension would compare complaints with passenger volume, examine changes within individual airports, and document the dataset’s coverage and reporting definitions more fully.
 
